@@ -1,4 +1,10 @@
 <?php
+
+    // Trying to check what will happen
+header("Location: ./index.php?success=true");
+exit();
+    // Ending here....!
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
     $firstname = $_POST["firstname"];
